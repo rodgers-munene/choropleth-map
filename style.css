@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+#title{
+    font-size: 45px;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+}
+#description{
+    position: absolute;
+    top: 70px;
+}
+svg{
+    background-color: whitesmoke;
+}
+#canvas{
+    min-width: 1000px;
+    min-height: 600px;
+    margin-top: 150px;
+}
+#legend{
+    position: absolute;
+    top: 690px;
+}
+#tooltip{
+    opacity: 0;
+    height: auto;
+    width: 200px;
+    position: absolute;
+    padding: 1rem;
+    color: white;
+    border-radius: 5px;
+}
